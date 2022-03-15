@@ -5,7 +5,7 @@
  *int main - prints _putchar
  *Return: void
  */
-char _putchar ()
+char _putchar (void)
 {
 	printf("_putchar\n");
 	return 0;

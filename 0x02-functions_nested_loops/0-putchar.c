@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * main - Print "_putchar" followed by a new line.
- * Description: You are not allowed to include standard libraries.
+ * main - Print out main car ny char.
+ * Description: Use the main header file
+ * that contains the function _putchar
  * Return: 0
  */
 int main(void)
 {
-	char _putchar[] = "_putchar";
+	char str[] = "_putchar";
 	int i = 0;
 
-	while (_putchar[i] != '\0')
+	while (str[i])
 	{
-		_putchar(_putchar[i]);
-		i++;
+		_putchar(str[i]);
+		++i;
 	}
 	_putchar('\n');
 
